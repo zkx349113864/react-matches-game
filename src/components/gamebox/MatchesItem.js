@@ -1,7 +1,7 @@
 import React from 'react'
 import matches from '../../static/img/matches.jpg'
 
-export default function matchesItem(props) {
+export default function MatchesItem(props) {
 
     const handleChange = (e) => {
         props.valueChange(e.target.checked, props.index, props.pIndex)
