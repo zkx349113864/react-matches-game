@@ -1,0 +1,76 @@
+.game-box {
+    width: 100%;
+    display: flex;
+    > div {
+        display: inline-block;
+        margin-right: 50px;
+    }
+}
+.left-desc {
+    width: 300px;
+}
+
+.game-area {
+    ul, li {
+        list-style: none;
+    }
+    width: 750px;
+    > * {
+        margin-bottom: 10px;
+    }
+    .the-first {
+        h3 {
+            margin-bottom: 10px;
+        }
+        label {
+            margin-right: 10px;
+        }
+    }
+    .next-step {
+        color: green;
+    }
+
+    .line-number {
+        margin-right: 20px;
+    }
+
+    .select-all-btn {
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .error-text {
+        color: red;
+    }
+
+    .line-item {
+        .matches-item {
+            display: inline-block;
+            margin-right: 15px;
+            img {
+                vertical-align: middle;
+                width: 50px;
+                height: 50px;
+            }
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    }
+
+    .lost-man {
+        color: red;
+    }
+}
+
+.operate-step {
+    width: 300px;
+}
+
+
