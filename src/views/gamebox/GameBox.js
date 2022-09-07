@@ -19,21 +19,21 @@ export default function GameBox() {
 	const setShowList = () => {
 		let obj = [
 			{
-				matches: Array(3).fill(null),
+				matches: Array(3).fill(false),
 				keyValue: 'lineone',
 				selectAll: false,
 				selNumber: 0,
 				lineNumber: 1
 			},
 			{
-				matches: Array(5).fill(null),
+				matches: Array(5).fill(false),
 				keyValue: 'linetwo',
 				selectAll: false,
 				selNumber: 0,
 				lineNumber: 2
 			},
 			{
-				matches: Array(7).fill(null),
+				matches: Array(7).fill(false),
 				keyValue: 'linethree',
 				selectAll: false,
 				selNumber: 0,
